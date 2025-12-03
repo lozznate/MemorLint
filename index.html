@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemorLint</title>
+    <link rel="icon" type="image/png" href="images/falicom.png">
+    <link rel="apple-touch-icon" href="images/falicom.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&family=Onest:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="gradient-bg"></div>
+    
+    <nav class="navbar">
+        <div class="nav-logo"><img src="images/logo.png" alt="Мерлин"></div>
+        <ul class="nav-links">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#games">Игры</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg-effects">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+                <div class="grid-lines"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-greeting">
+                    <span class="greeting-line"></span>
+                    <span>Привет, я</span>
+                    <span class="greeting-line"></span>
+                </div>
+                <h1 class="hero-name glitch" data-text="Мерлин">
+                    <span class="name-line accent">Мерлин</span>
+                </h1>
+                <p class="hero-title">
+                    <span class="title-word easter-egg" id="easterGamer">Геймер</span>
+                    <span class="title-dot">•</span>
+                    <span class="title-word easter-egg" id="easterMusic">Меломан</span>
+                    <span class="title-dot">•</span>
+                    <span class="title-word easter-egg" id="easterEgg">Уебан</span>
+                </p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn btn-primary">
+                        <span>Обо мне</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>скролль</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>Обо мне</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="images/avatar.png" alt="Мерлин" class="avatar-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="lead">
+                        Хай! Я Мерлин — увлекаюсь всякой хуйней и музыкой.
+                    </p>
+                    <p>
+                        Люблю проводить время в ритм-играх, общаться в nekto.me и слушать заебатую музыку. Здесь ты найдешь все, что тебе интересно.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Года в тюрьме</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">За пк</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Фантазий</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Games Section -->
+        <section id="games" class="games">
+            <div class="section-header">
+                <h2>Во что играю</h2>
+            </div>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-banner ddnet"></div>
+                    <div class="game-info">
+                        <h3>DDNet</h3>
+                        <p>Игра про колобков, в которой множество механик.</p>
+                        <div class="game-hours">
+                            <span class="hours-icon">🕐</span>
+                            <span class="hours-value">2.000+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-banner osu"></div>
+                    <div class="game-info">
+                        <h3>osu!</h3>
+                        <p>Ритм-игра, где скорость реакции решает всё</p>
+                        <div class="game-hours">
+                            <span class="hours-icon">🕐</span>
+                            <span class="hours-value">750+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-banner roblox"></div>
+                    <div class="game-info">
+                        <h3>Roblox</h3>
+                        <p>Платформа с кучей плейслов.</p>
+                        <div class="game-hours">
+                            <span class="hours-icon">🕐</span>
+                            <span class="hours-value">1.000+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-banner fnf"></div>
+                    <div class="game-info">
+                        <h3>Friday Night Funkin'</h3>
+                        <p>Ритм-баттлы под крутое музло.</p>
+                        <div class="game-hours">
+                            <span class="hours-icon">🕐</span>
+                            <span class="hours-value">200+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Section -->
+        <section id="music" class="music">
+            <details class="music-dropdown">
+                <summary class="music-toggle">
+                    <img src="images/icon-music.png" alt="Музыка" class="music-icon-img">
+                    <span>Мои любимые исполнители</span>
+                    <span class="toggle-arrow">▼</span>
+                </summary>
+                <div class="music-content">
+                    <div class="artists-cloud">
+                        <span class="artist-tag">HIM</span>
+                        <span class="artist-tag">Avril Lavigne</span>
+                        <span class="artist-tag">Lady Gaga</span>
+                        <span class="artist-tag">Queen</span>
+                        <span class="artist-tag">Metallica</span>
+                        <span class="artist-tag">Evanescence</span>
+                        <span class="artist-tag">Cascada</span>
+                        <span class="artist-tag">Twisted Sister</span>
+                        <span class="artist-tag">Miss Construction</span>
+                        <span class="artist-tag">Sohodolls</span>
+                        <span class="artist-tag">Rammstein</span>
+                        <span class="artist-tag">Babymetal</span>
+                        <span class="artist-tag">David Bowie</span>
+                        <span class="artist-tag">My Chemical Romance</span>
+                        <span class="artist-tag">Green Day</span>
+                        <span class="artist-tag">Linkin Park</span>
+                        <span class="artist-tag">Nirvana</span>
+                        <span class="artist-tag">Tokio Hotel</span>
+                        <span class="artist-tag">Mars Argo</span>
+                        <span class="artist-tag">Sex Pistols</span>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-header">
+                <h2>Проекты</h2>
+            </div>
+            <div class="projects-placeholder">
+                <p>🚧 Скоро здесь появятся проекты...</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Контакты</h2>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    Хочешь со мной попиздеть о всякой хуйне?<br>Пиши мне!
+                </p>
+                <div class="contact-links">
+                    <div class="contact-item contact-copy" data-copy="olikmerl">
+                        <img src="images/icon-discord.png" alt="Discord" class="contact-icon-img">
+                        <span>Discord</span>
+                        <span class="copy-hint">нажми чтобы скопировать</span>
+                    </div>
+                    <a href="https://t.me/olikmerl" target="_blank" class="contact-item">
+                        <img src="images/icon-telegram.png" alt="Telegram" class="contact-icon-img">
+                        <span>Telegram</span>
+                    </a>
+                    <a href="mailto:mar1nnntg@gmail.com" class="contact-item">
+                        <img src="images/icon-email.png" alt="Email" class="contact-icon-img">
+                        <span>mar1nnntg@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Мерлин. Сделано на отъебись</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">
+        <span>↑</span>
+    </button>
+
+    <!-- Easter Egg Modal - Уебан -->
+    <div class="easter-modal" id="easterModal">
+        <div class="easter-modal-content">
+            <button class="easter-close">✕</button>
+            <img src="images/sream.png" alt="Easter Egg" class="easter-img">
+            <p class="easter-text">Пасхалка на gav gav</p>
+        </div>
+    </div>
+
+    <!-- Easter Egg Modal - Геймер -->
+    <div class="easter-modal" id="gamerModal">
+        <div class="easter-modal-content">
+            <button class="easter-close">✕</button>
+            <img src="images/kolobki_core.png" alt="Kolobki" class="easter-img">
+            <p class="easter-text">Ыыыы колобочки летают тап тап.</p>
+        </div>
+    </div>
+
+    <!-- Easter Egg Modal - Меломан -->
+    <div class="easter-modal" id="musicModal">
+        <div class="easter-modal-content">
+            <button class="easter-close">✕</button>
+            <img src="images/kurtkabelka.png" alt="Music" class="easter-img">
+            <p class="easter-text">Лучше быть угрюмым мечтателем, чем безмозглым тусовщиком.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
